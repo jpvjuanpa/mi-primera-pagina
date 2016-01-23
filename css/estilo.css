@@ -1,0 +1,150 @@
+body{
+/*
+    background: url("../img/fondo2.png");
+    background-size: cover;
+*/
+}
+
+@font-face {
+  font-family: "Agent Orange";
+  src: url("../fonts/agentorange.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "lobster";
+  src: url("../fonts/lobster.ttf");
+}
+
+@font-face {
+  font-family: "commercial-script";
+  src: url("../font/commercial-script-bt.ttf");
+}
+
+
+section{
+    min-height: 400px;
+}
+
+.circulo{
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+.circulo:hover{
+  transition: 1s;
+  border-color: black;
+  color:black;
+  background: white;
+}
+
+footer{
+  background:url("../img/fondo2.png");
+}
+
+
+#seccion1{
+background-color:rgb(154, 10, 10);
+color:white;
+
+}
+
+
+#seccion2{
+    min-height: 400px;
+background:url("../img/fondo2.png");
+
+background-attachment: fixed;
+
+}
+
+#seccion3{
+  background-color:rgb(154, 10, 10);
+  color:white;
+}
+
+#seccion4{
+    min-height: 250px;
+    background:url("../img/fondo2.png");
+
+    background-attachment: fixed;
+}
+
+#imagen1{
+    width: 200px;
+    height: 180px;
+}
+
+#juan{
+  color:white;
+  font-size: 7;
+  font-family: "Agent Orange";
+  font-weight:700;
+
+}
+
+#nav{
+  background:black;
+  border-color:black;
+}
+
+#acercade{
+  color:white;
+  font-size: 7;
+  font-family: "Agent Orange";
+  font-weight:700;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+#acercade:hover{
+  color:rgb(255, 8, 0);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+#juanpablo{
+  color:white;
+  font-size: 7;
+  font-family: "Agent Orange";
+  font-weight: 700;
+  transition: 1s;
+
+}
+#juanpablo:hover{
+  transition: 1s;
+  color: black;
+  font-weight: 200;
+}
+
+#correo{
+  color: white;
+  font-size: 7;
+  font-family: "Agent Orange";
+  font-weight: 700;
+  transition: 1s;
+}
+#correo:hover{
+  transition: 1s;
+  color: black;
+}
+
+#redes{
+  color: white;
+  font-size: 7;
+  font-family: "Agent Orange";
+  font-weight: 700;
+  transition: 1s;
+}
+#redes:hover{
+  transition: 1s;
+  color: rgb(255, 8, 0);
+}
